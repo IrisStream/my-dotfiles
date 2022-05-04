@@ -3,5 +3,5 @@
 ## Install
 
 ```bash
-        ./install.sh
+./install.sh
 ```

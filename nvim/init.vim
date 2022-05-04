@@ -1,3 +1,3 @@
-source basic_config.vim
-source file_type_spec.vim
-source plugin.vim
+source ~/.config/nvim/basic_config.vim
+source ~/.config/nvim/file_type_spec.vim
+source ~/.config/nvim/plugin.vim

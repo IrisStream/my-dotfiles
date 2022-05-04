@@ -19,4 +19,4 @@ Plugin 'ngthanhtrung23/vim-comment'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-source plugins/vim-airline.vim
+source ~/.config/nvim/plugins/vim-airline.vim
