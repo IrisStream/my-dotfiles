@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# uninstall vim
+
+sudo apt remove --purge -y vim
+
+sudo apt autoremove -y
+
 # install nvim
 sudo apt -y install neovim
 
