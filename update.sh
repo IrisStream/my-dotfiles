@@ -1,7 +1,11 @@
 #!/bin/bash
 
-# Remove old vim configs
-rm -rf ./nvim
+# Remove old configs
+
+rm -rf ./config/*
 
 #Update new vim configs
-cp -r ~/.config/nvim ./nvim
+cp -r ~/.config/nvim ./config/nvim
+
+# Update new tmux config
+cp ~/.config/.tmux.conf ./config/tmux.conf
