@@ -36,3 +36,14 @@ sudo apt install -y tmux
 
 # copy tmux config to $HOME
 cp ./config/tmux.conf ~/.tmux.conf
+
+# Install tmux vim select pane plugin
+sudo curl -fsSL https://raw.github.com/mislav/dotfiles/1500cd2/bin/tmux-vim-select-pane \
+  -o /usr/local/bin/tmux-vim-select-pane
+
+sudo chmod +x /usr/local/bin/tmux-vim-select-pane
+
+###############
+#    BASH     #
+###############
+cp ./config/bashrc ~/.bashrc

@@ -8,4 +8,8 @@ rm -rf ./config/*
 cp -r ~/.config/nvim ./config/nvim
 
 # Update new tmux config
-cp ~/.config/.tmux.conf ./config/tmux.conf
+cp ~/.tmux.conf ./config/tmux.conf
+
+# Update bashrc
+cp ~/.bashrc ./config/bashrc
+sed -i '/>>> conda initialize >>>/,/<<< conda initialize <<</d' ./config/bashrc
